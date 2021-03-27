@@ -53,7 +53,7 @@ public class TrainControllerImpl implements TrainController {
 				followSpeed();
 			}
 		};
-		vTimer.schedule(tTimer, 1000, 1000);
+		vTimer.scheduleAtFixedRate(tTimer, 1000, 1000);
 	}
 
 }
